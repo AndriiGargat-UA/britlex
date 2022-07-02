@@ -1,6 +1,14 @@
-:root
+:root {
+    /* fonts */
+    --main-font: "Poppins", sans-serif;
 
+    /* txt-colors */
+    --main-txt-colors: #8F95A5;
+
+
+}
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
+    color: var(--main-txt-colors)
    }
