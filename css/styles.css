@@ -9,11 +9,13 @@
     --white-txt-color: #FFFFFF;
     --logo-acent: #939393;
     --numbers-color: #2A3246;
+    --cost-text-color: #546269;
 
     /* bacground-colors */
     --skills-bcg-color: #F5F5F5;
     --button-bcg-color: #263238;
     --white-color: #FFFFFF;
+    --cost-bcg-color: #EEEEEE;
 
     /* others */
 
@@ -51,7 +53,9 @@ img {
 
 body {
     font-family: "Poppins", sans-serif;
-    color: var(--main-txt-color)
+    line-height: 1.5;
+    color: var(--main-txt-color);
+    background-color: var(--white-color);    
 }
 
 .btn {
@@ -69,11 +73,16 @@ body {
     outline: 1px solid tomato;
 }
 
+.section-title {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--black-txt-color);
+}
+
    /* header */
 
 .header-logo {
     font-size: 36px;
-    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -83,7 +92,6 @@ body {
 .nav-link {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.5;
 
     color: var(--secondary-txt-color);
 }
@@ -96,7 +104,6 @@ body {
     height: 70px;
 
     font-size: 20px;
-    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -117,7 +124,6 @@ body {
 
 .hero-txt {
     font-size: 24px;
-    line-height: 1.5;
 }
 
 .hero-btn {
@@ -127,7 +133,6 @@ body {
     height: 100px;
 
     font-size: 36px;
-    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--white-txt-color);
@@ -136,4 +141,126 @@ body {
     border-radius: 10px;
 }
 
+/* skills-section */
+.skill-title {
+    font-weight: 600;
+        font-size: 30px;
+        color: var(--secondary-txt-color);
+}
 
+.skill-text {
+    font-size: 16px;
+}
+
+.skill-link {
+    display: block;
+    padding: 15px 51px;
+    
+    width: 218px;
+    height: 60px;
+
+    font-weight: 500;
+    font-size: 20px;
+
+    color: var(--white-txt-color);
+    background-color: var(--button-bcg-color);
+    border-radius: 10px;
+}
+
+/* about-section */
+
+.about-text {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.about-number {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--numbers-color);
+}
+
+.about-secondary-text {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* pricing-section */
+
+.pricing-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.6;
+    text-transform: capitalize;
+    color: var(--secondary-txt-color);
+}
+
+.pricing-text {
+    font-size: 20px;
+}
+
+.cost {
+    margin: 5px 21px 4px 29px;
+
+    font-size: 24px;
+    color: var(--secondary-txt-color);
+}
+
+.cost-text {
+    margin-left: auto;
+    width: 108px;
+    font-size: 18px;
+    text-align: center;
+    color: var(--cost-text-color);
+}
+
+.cost-container {
+display: flex;
+align-items: baseline;
+
+padding-right: 23px;
+
+width: 260px;
+height: 45px;
+
+background-color: var(--cost-bcg-color);
+border-radius: 5px;
+}
+
+/* contact-section */
+
+.contact-text {
+    font-size: 20px;
+}
+
+.contact-btn {
+    width: 312px;
+    height: 70px;
+
+    font-weight: 500;
+    font-size: 20px;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--white-txt-color);
+    background-color: var(--button-bcg-color);
+    border-radius: 10px;
+    border: 0;
+}
+
+/* footer */
+
+.footer-logo {
+    font-size: 36px;
+    color: var(--black-txt-color);
+}
+
+.logo-acent {
+    color: var(--logo-acent);
+}
+
+.footer-link {
+    font-size: 24px;
+    letter-spacing: 0.02em;
+}
